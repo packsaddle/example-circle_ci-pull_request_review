@@ -4,10 +4,6 @@ run rubocop and pull request review comment
 
 [Actual script for CircleCI](./bin/run-tests.sh)
 
-[Environment variables - CircleCI](https://circleci.com/docs/environment-variables)
-
-set your own `GITHUB_ACCESS_TOKEN`
-
 ```
 # circle.yml
 test:
@@ -33,6 +29,10 @@ if [ "${CIRCLE_BRANCH}" != "master" ]; then
 fi
 exit 0
 ```
+
+[Environment variables - CircleCI](https://circleci.com/docs/environment-variables)
+
+set your own `GITHUB_ACCESS_TOKEN`
 
 ## Contributing
 
