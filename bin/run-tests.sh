@@ -1,6 +1,6 @@
 #!/bin/bash
 set -v
-if [ -n "${CI_PULL_REQUEST}" ]; then
+if [ "${CIRCLE_BRANCH}" != "master" ]; then
   # Circle-CI
   #
 
