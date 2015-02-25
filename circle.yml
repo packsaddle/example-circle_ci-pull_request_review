@@ -4,3 +4,6 @@ machine:
 dependencies:
   pre:
     - gem update bundler
+test:
+  pre:
+    - bin/run-tests.sh
