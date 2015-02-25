@@ -1,4 +1,4 @@
-require "example/circle_ci/pull_request_review/version"
+require 'example/circle_ci/pull_request_review/version'
 
 module Example
   module CircleCi
