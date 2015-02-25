@@ -4,10 +4,6 @@ if [ "${CIRCLE_BRANCH}" != "master" ]; then
   # Circle-CI
   #
 
-  git branch
-  git remote show
-  git remote show origin
-
   gem install --no-document rubocop-select rubocop rubocop-checkstyle_formatter \
               checkstyle_filter-git saddler saddler-reporter-github
 
