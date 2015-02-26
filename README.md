@@ -30,6 +30,10 @@ fi
 exit 0
 ```
 
+If you prefer to exec *post* `test`, you can set this. See: [Configuring CircleCI - CircleCI](https://circleci.com/docs/configuration#phases)
+
+## Setting
+
 [Environment variables - CircleCI](https://circleci.com/docs/environment-variables)
 
 set your own `GITHUB_ACCESS_TOKEN`
