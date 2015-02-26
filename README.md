@@ -10,7 +10,7 @@ test:
   pre:
     - bin/run-tests.sh
 
-# bin/run-tests.sh
+# bin/run-rubocop.sh
 #!/bin/bash
 set -v
 if [ "${CIRCLE_BRANCH}" != "master" ]; then
