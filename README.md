@@ -10,7 +10,7 @@ test:
   pre:
     - bin/run-tests.sh
 
-# bin/run-tests.sh
+# bin/run-rubocop.sh
 #!/bin/bash
 set -v
 if [ "${CIRCLE_BRANCH}" != "master" ]; then
@@ -29,6 +29,10 @@ if [ "${CIRCLE_BRANCH}" != "master" ]; then
 fi
 exit 0
 ```
+
+If you prefer to exec *post* `test`, you can set this. See: [Configuring CircleCI - CircleCI](https://circleci.com/docs/configuration#phases)
+
+## Setting
 
 [Environment variables - CircleCI](https://circleci.com/docs/environment-variables)
 

@@ -6,4 +6,4 @@ dependencies:
     - gem update bundler
 test:
   pre:
-    - bin/run-tests.sh
+    - bin/run-rubocop.sh
