@@ -2,13 +2,13 @@
 
 run rubocop and pull request review comment
 
-[Actual script for CircleCI](./bin/run-tests.sh)
+[Actual script for CircleCI](./bin/run-rubocop.sh)
 
 ```
 # circle.yml
 test:
   pre:
-    - bin/run-tests.sh
+    - bin/run-rubocop.sh
 
 # bin/run-rubocop.sh
 #!/bin/bash
